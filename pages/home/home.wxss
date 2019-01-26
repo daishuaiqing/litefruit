@@ -1,0 +1,11 @@
+/* pages/home/home.wxss */
+
+.banner-box {
+    width: 100%;
+    height: 350rpx;
+}
+
+.banner-box .slide-image {
+    width: 100%;
+    height: 100%;
+}
