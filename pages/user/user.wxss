@@ -38,7 +38,7 @@
 }
 .userinfo-goto {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-left: 12rpx;
 }
 .userinfo-goto image {
