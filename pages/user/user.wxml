@@ -6,40 +6,19 @@
       <image src='{{userIcon}}'></image>
     </view>
     <view class='userinfo'>
-        <text class='username'>小可爱</text>
-        <text class='userphone'>18822317722</text>
-    </view>
-    <view class='userinfo-goto'>
-      <image src='../../images/user/white_return.png'></image>
-    </view>
-  </view>
-
-  <view class='all-order' id='0'>
-    <text>我的订单</text>
-    <view class='all-order'>
-      <text>全部订单</text>
-      <image src='../../images/user/fh.png'></image>
+        <view class='userinfo-text'>
+          <text class='username'>兰陵笑笑生</text>
+          <text class='userphone'>188****7722</text>
+        </view>
+        <image class='userinfo-goto' src='../../images/user/white_return.png'></image>
     </view>
   </view>
 
-  <view class='order-state'>
-    <view class='state' bindtap='gotowait' id='1'>
-      <image src='../../images/user/dfk.png'></image>
-      <text>待付款</text>
-    </view>
-    <view class='state' bindtap='gotowait' id='2'>
-      <image src='../../images/user/dfh.png'></image>
-      <text>待发货</text>
-    </view>
-    <view class='state' bindtap='gotowait' id='3'>
-      <image src='../../images/user/dsh.png'></image>
-      <text>待收货</text>
-    </view>
-    <view class='state' bindtap='gotowait' id='4'>
-      <image src='../../images/user/ywc.png'></image>
-      <text>已完成</text>
-    </view>
-  </view>
+  <!-- 订单模块 -->
+  <!-- <view class='order'>
+
+  </view> -->
+  
 
   <!-- <view class='model'>
     <view class='model-item'>
