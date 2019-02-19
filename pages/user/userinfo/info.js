@@ -1,4 +1,4 @@
-// pages/user/user.js
+// pages/user/userinfo/info.js
 Page({
 
   /**
@@ -6,12 +6,6 @@ Page({
    */
   data: {
     userIcon:"https://wx.qlogo.cn/mmopen/vi_32/GCiaODrDB8pNsLwmLibibpibQFTFARpIibuv0mqFomq2dPe5qQVmCQLG8x62iaicGpZpia0Aq14BWFA0L2JebUd3wia4lNQ/132"
-  },
-
-  toUserInfo(){
-    wx.navigateTo({
-      url: 'userinfo/info'
-    })
   },
 
   /**

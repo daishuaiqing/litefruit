@@ -1,0 +1,9 @@
+<!--pages/user/userinfo/info.wxml-->
+<view class="info">
+    <view class="item">
+        <text class="item-text">头像</text>
+        <image class='icon' src='{{userIcon}}'></image>
+    </view>
+    <!-- <view class="item"></view>
+    <view class="item"></view> -->
+</view>
