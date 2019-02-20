@@ -4,7 +4,8 @@
     "pages/category/category",
     "pages/cart/cart",
     "pages/user/user",
-    "pages/user/userinfo/info"
+    "pages/user/userinfo/info",
+    "pages/user/coupon/coupon"
   ],
   "window":{
     "backgroundTextStyle":"light",

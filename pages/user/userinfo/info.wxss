@@ -38,4 +38,11 @@ page{
     height: 90rpx;
     margin-top: 90rpx;
     background-color: #48B871;
+    margin-left: 30rpx;
+    border-radius: 5rpx;
+    font-size: 32rpx;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

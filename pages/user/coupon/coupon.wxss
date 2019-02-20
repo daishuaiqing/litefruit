@@ -1,0 +1,30 @@
+/* pages/user/coupon/coupon.wxss */
+page {
+    background: #F4F4F4;
+}
+.swiper-tab{
+    width: 100%;
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background: #ffffff;
+}
+.swiper-tab-item{
+    width: 120rpx; 
+    font-size: 28rpx;
+    color:#666666;
+}
+.active{
+    color:#48B871;
+    border-bottom: 2rpx solid #48B871;
+    font-size: 28rpx;
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}

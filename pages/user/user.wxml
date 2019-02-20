@@ -16,7 +16,7 @@
   </view>
 
   <view class='coupon'>
-    <view class='coupon-show'>
+    <view class='coupon-show' bindtap="toCoupon">
       <text class='coupon-numb'>3<text class="coupon-text-mini">个</text></text>
       <text class='coupon-text'>我的红包</text>
     </view>
