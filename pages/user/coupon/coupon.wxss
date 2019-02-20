@@ -36,7 +36,7 @@ page {
 .item {
     display: flex;
     width: 690rpx;
-    height: 280rpx;
+    height: 288rpx;
     background: #ffffff;
     margin-top: 20rpx;
     flex-direction: column;
