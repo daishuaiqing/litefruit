@@ -7,17 +7,45 @@
 
 <view class = "{{currentTab == 0 ? 'show':'hidden'}}" >
     <scroll-view>
-      <view class=""></view>
+        <view class="coupon">
+            <view class="item">
+                <view class="item-body">
+                    <view class="b1">
+                        <text class="money">￥<text class="numb">20</text></text>
+                        <text class="condition">满99元可用</text>
+                    </view>
+                    <view class="b2">
+                        <text class="cname">鲜赋生活20元红包</text>
+                        <text class="notice">秒杀商品不可用</text>
+                    </view>
+                    <view class="b3">
+                        <text class="lable">即将过期</text>
+                    </view>
+                </view>
+                <view class="line"></view>
+                <view class="item-bottem">
+                    <text class="validity">有效期至：2018.08.04（周二)</text>
+                    <text class="touse">去使用</text>
+                </view>
+                
+                <!-- 
+                
+                <text class="line"></text>
+                 -->
+            </view>
+            <view class="item"></view>
+        </view>
     </scroll-view>
 </view>
+
 <view class = "{{currentTab == 1 ? 'show':'hidden'}}" >
 <scroll-view>
-    <text>暂无内容2</text>
+    <text></text>
 </scroll-view>
 </view>
 <view class = "{{currentTab == 2 ? 'show':'hidden'}}">
     <scroll-view>
-      <text>暂无内容3</text>
+      <text></text>
     </scroll-view>
 </view>
 
