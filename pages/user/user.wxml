@@ -21,7 +21,7 @@
       <text class='coupon-text'>我的红包</text>
     </view>
     <view class='coupon-line'></view>
-    <view class='coupon-show'>
+    <view class='coupon-show' bindtap="toGoodsCard">
       <text class='coupon-numb'>2<text class="coupon-text-mini">张</text></text>
       <text class='coupon-text'>我的商品券</text>
     </view>

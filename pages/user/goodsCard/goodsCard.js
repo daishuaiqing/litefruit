@@ -1,27 +1,21 @@
-// pages/user/user.js
+// pages/user/goodsCard/goodsCard.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userIcon:"https://wx.qlogo.cn/mmopen/vi_32/GCiaODrDB8pNsLwmLibibpibQFTFARpIibuv0mqFomq2dPe5qQVmCQLG8x62iaicGpZpia0Aq14BWFA0L2JebUd3wia4lNQ/132"
+    currentTab: 0
   },
-
-  toUserInfo(){
-    wx.navigateTo({
-      url: 'userinfo/info'
-    })
-  },
-  toCoupon(){
-    wx.navigateTo({
-      url: 'coupon/coupon'
-    })
-  },
-  toGoodsCard(){
-    wx.navigateTo({
-      url: 'goodsCard/goodsCard'
-    })
+  clickTab: function (e) {
+    var that = this;
+    if (this.data.currentTab === e.target.dataset.current) {
+      return false;
+    } else {
+      that.setData({
+        currentTab: e.target.dataset.current,
+      })
+    }
   },
 
   /**
