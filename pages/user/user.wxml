@@ -30,25 +30,25 @@
   <view class="order">
     <view class="order-header">
       <text class="myorder-text">我的订单</text>
-      <view class="orderlist">
+      <view class="orderlist" bindtap="toOrderList">
         <text class="allorder-text">全部订单</text>
         <image class='userinfo-goto' src='../../images/user/return.png'></image>
       </view>
     </view>
     <view class="order-item">
-      <view class="item-state">
+      <view class="item-state" bindtap="toOrderList">
         <image class='state-dfk' src='../../images/user/dfk.png'></image>
         <text class="state-text">待付款</text>
       </view>
-      <view class="item-state">
+      <view class="item-state" bindtap="toOrderList">
         <image class='state-dfh' src='../../images/user/dfh.png'></image>
         <text class="state-text">待发货</text>
       </view>
-      <view class="item-state">
+      <view class="item-state" bindtap="toOrderList">
         <image class='state-dsh' src='../../images/user/dsh.png'></image>
         <text class="state-text">待收货</text>
       </view>
-      <view class="item-state">
+      <view class="item-state" bindtap="toOrderList">
         <image class='state-ywc' src='../../images/user/ywc.png'></image>
         <text class="state-text">已完成</text>
       </view>

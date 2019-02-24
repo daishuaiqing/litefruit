@@ -1,32 +1,11 @@
-// pages/user/user.js
+// pages/user/address/address.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userIcon:"https://wx.qlogo.cn/mmopen/vi_32/GCiaODrDB8pNsLwmLibibpibQFTFARpIibuv0mqFomq2dPe5qQVmCQLG8x62iaicGpZpia0Aq14BWFA0L2JebUd3wia4lNQ/132"
-  },
 
-  toUserInfo(){
-    wx.navigateTo({
-      url: 'userinfo/info'
-    })
-  },
-  toCoupon(){
-    wx.navigateTo({
-      url: 'coupon/coupon'
-    })
-  },
-  toGoodsCard(){
-    wx.navigateTo({
-      url: 'goodsCard/goodsCard'
-    })
-  },
-  toOrderList(){
-    wx.navigateTo({
-      url: 'order/orderList/orderList'
-    })
   },
 
   /**

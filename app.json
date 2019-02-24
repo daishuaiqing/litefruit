@@ -6,7 +6,12 @@
     "pages/user/user",
     "pages/user/userinfo/info",
     "pages/user/coupon/coupon",
-    "pages/user/goodsCard/goodsCard"
+    "pages/user/goodsCard/goodsCard",
+    "pages/user/order/orderList/orderList",
+    "pages/user/order/orderDetail/orderDetail",
+    "pages/user/collection/collection",
+    "pages/user/welfare/welfare",
+    "pages/user/address/address"
   ],
   "window":{
     "backgroundTextStyle":"light",
