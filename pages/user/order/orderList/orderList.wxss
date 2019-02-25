@@ -72,3 +72,88 @@ page {
     height: 132rpx;
     margin-left: 24rpx;
 }
+.item-content {
+    height: 82rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.goods-numb {
+    font-size: 26rpx;
+    margin-right: 30rpx;
+}
+.goods-hjtext {
+    font-size: 26rpx;
+    font-weight: bold;
+    margin-right: 6rpx;
+}
+.goods-cost {
+    font-size: 30rpx;
+    font-weight: bold;
+    margin-right: 30rpx;
+}
+.item-line {
+    width: 750rpx;
+    height: 1rpx;
+    background:#E2E2E2;
+}
+.item-do {
+    height: 88rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.cancal-bt {
+    width: 152rpx;
+    height: 60rpx;
+    font-size: 22rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border: 1rpx solid #979797;
+    border-radius: 30rpx;
+    margin-right: 24rpx;
+}
+.pay-bt {
+    width: 152rpx;
+    height: 60rpx;
+    font-size: 22rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border: 1rpx solid #48B871;
+    color: #48B871;
+    border-radius: 30rpx;
+    margin-right: 30rpx;
+}
+.delete-bt {
+    width: 152rpx;
+    height: 60rpx;
+    font-size: 22rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border: 1rpx solid #979797;
+    border-radius: 30rpx;
+    margin-right: 24rpx;
+}
+.apply-bt {
+    width: 152rpx;
+    height: 60rpx;
+    font-size: 22rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border: 1rpx solid #979797;
+    border-radius: 30rpx;
+    margin-right: 24rpx;
+}
+.rebuy-bt {
+    width: 152rpx;
+    height: 60rpx;
+    font-size: 22rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border: 1rpx solid #48B871;
+    color: #48B871;
+    border-radius: 30rpx;
+    margin-right: 30rpx;
+}

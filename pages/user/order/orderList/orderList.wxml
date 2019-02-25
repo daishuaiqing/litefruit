@@ -20,9 +20,38 @@
                     <image class='goods-image' src='../../../../images/goodsImages/pingguo.png'></image>
                     <image class='goods-image' src='../../../../images/goodsImages/chengzi.png'></image>
                 </view>
-                <view class="item-content"></view>
+                <view class="item-content">
+                    <text class="goods-numb">共4件商品</text>
+                    <text class="goods-hjtext">合计</text>
+                    <text class="goods-cost">¥116.5</text>
+                </view>
                 <view class="item-line"></view>
-                <view class="item-do"></view>
+                <view class="item-do">
+                    <view class="cancal-bt">取消订单</view>
+                    <view class="pay-bt">立即付款</view>
+                </view>
+            </view>
+            <view class="item">
+                <view class="item-top">
+                    <text class="order-no">订单编号：5880123442321</text>
+                    <text class="order-state">已完成</text>
+                </view>
+                <view class="item-goods">
+                    <image class='goods-image' src='../../../../images/goodsImages/xiangjiao.png'></image>
+                    <image class='goods-image' src='../../../../images/goodsImages/pingguo.png'></image>
+                    <image class='goods-image' src='../../../../images/goodsImages/chengzi.png'></image>
+                </view>
+                <view class="item-content">
+                    <text class="goods-numb">共4件商品</text>
+                    <text class="goods-hjtext">合计</text>
+                    <text class="goods-cost">¥116.5</text>
+                </view>
+                <view class="item-line"></view>
+                <view class="item-do">
+                    <view class="delete-bt">删除订单</view>
+                    <view class="apply-bt">申请售后</view>
+                    <view class="rebuy-bt">再次购买</view>
+                </view>
             </view>
         </view>
     </scroll-view>
