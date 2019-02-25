@@ -6,9 +6,10 @@ Page({
    */
   data: {
     imgUrls: [
-      'http://plxdg8p2m.bkt.clouddn.com/fitness_02.jpg',
-      'http://plxdg8p2m.bkt.clouddn.com/fitness_01.jpg',
-      'http://plxdg8p2m.bkt.clouddn.com/fitness_03.jpg'
+      '../../images/home/001.png',
+      '../../images/home/002.png',
+      '../../images/home/003.png',
+      '../../images/home/004.png'
     ],
   },
 
