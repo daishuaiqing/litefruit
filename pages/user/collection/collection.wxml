@@ -1,2 +1,19 @@
 <!--pages/user/collection/collection.wxml-->
-<text>pages/user/collection/collection.wxml</text>
+<view class="collections">
+    <view class="item">
+        <image class='icon' src='../../../images/goodsImages/chengzi.png'></image>
+        <view class="content">
+            <view class="name">江西名牌 杨氏YANG’S 精品脐橙</view>
+            <view class="describe">水分超多，脆嫩清香</view>
+            <view class="price">¥7.8</view>
+        </view>
+    </view>
+    <view class="item">
+        <image class='icon' src='../../../images/goodsImages/xiangjiao.png'></image>
+        <view class="content">
+            <view class="name">江西名牌 杨氏YANG’S 精品香蕉</view>
+            <view class="describe">水分超多，脆嫩清香</view>
+            <view class="price">¥9.9</view>
+        </view>
+    </view>
+</view>

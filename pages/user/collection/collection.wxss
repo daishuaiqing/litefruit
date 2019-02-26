@@ -1,1 +1,39 @@
 /* pages/user/collection/collection.wxss */
+page {
+    background: #F4F4F4;
+}
+.collections {
+    margin-top: 15rpx;
+}
+.item {
+    width: 100%;
+    height: 224rpx;
+    background: #FFFFFF;
+    margin-top: 2rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon {
+    width: 160rpx;
+    height: 160rpx;
+    margin-left: 30rpx;
+}
+.content {
+    margin-left: 24rpx;
+}
+.name {
+    font-size: 28rpx;
+}
+.describe {
+    font-size: 24rpx;
+    color: #999999;
+    margin-top: 10rpx;
+}
+.price {
+    font-size: 32rpx;
+    color: #FE5756;
+    margin-top: 18rpx;
+}
+
+

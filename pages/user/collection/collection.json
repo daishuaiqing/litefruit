@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText": "我的收藏",
+  "backgroundColor": "#F4F4F4"
 }
