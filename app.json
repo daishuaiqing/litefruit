@@ -11,7 +11,8 @@
     "pages/user/order/orderDetail/orderDetail",
     "pages/user/collection/collection",
     "pages/user/welfare/welfare",
-    "pages/user/address/address"
+    "pages/user/address/addressList/addressList",
+    "pages/user/address/addressAdd/addressAdd"
   ],
   "window":{
     "backgroundTextStyle":"light",

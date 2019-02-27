@@ -1,0 +1,46 @@
+
+<view class="list">
+    <view class="item">
+        <view class="userinfo">
+            <view class="name">代帅卿</view>
+            <view class="mobile">18865550002</view>
+            <view class="lable">公司</view>
+        </view>
+        <text class="address-text">济南市市中区山东大学工程训练中心</text>
+        <view class="line"></view>
+        <view class="do">
+            <view class="default">
+                <image src='../../../../images/user/sel_f.png'></image>
+                <text class="default-text">默认地址</text>
+            </view>
+            <view class="edit">
+                <image src='../../../../images/user/edit.png'></image>
+                <text class="edit-text">编辑</text>
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="userinfo">
+            <view class="name">代帅卿</view>
+            <view class="mobile">18865550002</view>
+            <view class="lable">家</view>
+        </view>
+        <text class="address-text">济南市市中区山东大学工程训练中心</text>
+        <view class="line"></view>
+        <view class="do">
+            <view class="default">
+                <image src='../../../../images/user/sel.png'></image>
+                <text class="default-text">默认地址</text>
+            </view>
+            <view class="edit">
+                <image src='../../../../images/user/edit.png'></image>
+                <text class="edit-text">编辑</text>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="bt">
+    <image src='../../../../images/user/add_address.png'></image>
+    <text class="bt-text">新增收货地址</text>
+</view>
+

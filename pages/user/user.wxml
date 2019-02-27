@@ -66,7 +66,7 @@
         <image class='service-flm' src='../../images/user/flm.png'></image>
         <text class="service-text">福利码</text>
       </view>
-      <view class="service">
+      <view class="service" bindtap="toAddressList">
         <image class='service-shdz' src='../../images/user/shdz.png'></image>
         <text class="service-text">收货地址</text>
       </view>
