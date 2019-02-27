@@ -62,7 +62,7 @@
         <image class='service-wdsc' src='../../images/user/wdsc.png'></image>
         <text class="service-text">我的收藏</text>
       </view>
-      <view class="service">
+      <view class="service" bindtap="toWelfare">
         <image class='service-flm' src='../../images/user/flm.png'></image>
         <text class="service-text">福利码</text>
       </view>
