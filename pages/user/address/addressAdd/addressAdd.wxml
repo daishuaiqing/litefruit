@@ -1,2 +1,22 @@
 <!--pages/user/address/addressAdd/addressAdd.wxml-->
-<text>pages/user/address/addressAdd/addressAdd.wxml</text>
+<view class="item">
+    <text class="name">姓名</text>
+    <input class="input-text" placeholder="请填写收货人姓名" auto-focus />
+</view>
+<view class="item">
+    <text class="name">手机号</text>
+    <input class="input-text" placeholder="请填写收货人手机号" auto-focus />
+</view>
+<view class="item">
+    <text class="name">选择城市</text>
+    <input class="input-text" placeholder="点击选择" auto-focus />
+</view>
+<view class="item">
+    <text class="name">详细地址</text>
+    <input class="input-text" placeholder="请输入你的收货地址" auto-focus />
+</view>
+<view class="item">
+    <text class="name">标签</text>
+    <view class="content"></view>
+</view>
+<view class="bt">保存</view>

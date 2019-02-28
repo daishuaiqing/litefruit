@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 8,
 			"list": [
 				{
 					"id": -1,
@@ -87,7 +87,13 @@
 					"id": -1,
 					"name": "addressList",
 					"pathName": "pages/user/address/addressList/addressList",
+					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "addAddress",
+					"pathName": "pages/user/address/addressAdd/addressAdd"
 				}
 			]
 		}

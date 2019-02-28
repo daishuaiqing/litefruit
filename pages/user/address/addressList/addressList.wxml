@@ -39,7 +39,7 @@
         </view>
     </view>
 </view>
-<view class="bt">
+<view class="bt" bindtap="toAddAddress">
     <image src='../../../../images/user/add_address.png'></image>
     <text class="bt-text">新增收货地址</text>
 </view>
